@@ -1,0 +1,129 @@
+/* body {
+  background-color: darkgray;
+}
+form {
+  margin-top: 100px;
+}
+.errors {
+  color: red;
+}
+.headings {
+  color: black;
+  text-align: center;
+} */
+/* App.css */
+
+/* Global Styles */
+/* App.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.Headings {
+  text-align: center;
+  color: #333;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #555;
+}
+
+.errors {
+  color: #ff6347;
+  margin-top: 5px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+  transition: border-color 0.3s;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+/* Custom Width Classes */
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Checkbox Styles */
+.form-check-input {
+  margin-right: 10px;
+}
+
+.form-check-label {
+  color: #555;
+}
+
+/* Responsive Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-md-2,
+.col-md-4,
+.col-md-6 {
+  flex-basis: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-md-2 {
+    flex-basis: calc(100% / 6 * 2);
+  }
+  .col-md-4 {
+    flex-basis: calc(100% / 6 * 4);
+  }
+  .col-md-6 {
+    flex-basis: calc(100% / 6 * 6);
+  }
+}
